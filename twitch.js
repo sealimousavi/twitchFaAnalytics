@@ -1,5 +1,9 @@
       const api_url =
+	
+	// api from https://api.twitchfa.com/v2/docs/#/default/TwitchController_getStreamers
+	
         "https://api.twitchfa.com/v2/twitch/streamers?page=1&limit=5";
+
       async function getData() {
         // get streamers and views name list
         const response = await fetch(api_url);
