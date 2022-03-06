@@ -50,7 +50,6 @@
              const new_data = await getData();
              myChart.data.datasets[0].data = new_data.ys;
              myChart.data.labels  = new_data.xs; 
-             console.log(new_data.ys)
              myChart.update()
             }
 
