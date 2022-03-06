@@ -44,7 +44,7 @@
           },
         });
 
-        // function for updating dynamicly
+        //updating dynamicly
 
            async function adddata() {
              const new_data = await getData();
